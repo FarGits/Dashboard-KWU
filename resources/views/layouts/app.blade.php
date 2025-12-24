@@ -17,18 +17,12 @@
 </head>
 
 <body class="font-sans antialiased">
-    <div class="d-flex">
+    <div class="min-h-screen bg-gray-100">
+        @include('layouts.navigation')
 
-        @include('partials.sidebar')
-
-        <div class="flex-grow-1">
-            @include('layouts.navigation')
-
-            <main class="p-4">
-                {{ $slot }}
-            </main>
-        </div>
-
+        <main>
+            {{ $slot }}
+        </main>
     </div>
 </body>
 
