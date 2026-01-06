@@ -5,6 +5,39 @@
         </h2>
     </x-slot>
 
+    {{-- Banner Produk --}}
+<div class="pt-6 bg-gray-50">
+    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+
+        <div class="bg-white rounded-xl shadow p-6 mb-6">
+            <div class="flex items-center gap-6">
+
+                {{-- Gambar --}}
+                <img 
+                    src="{{ asset('images/produk.jpg') }}"
+                    class="w-32 h-32 rounded-lg object-cover"
+                    alt="Produk"
+                >
+
+                {{-- Deskripsi --}}
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-800">
+                        Sandwich MBG(Mood Booster Goddies)
+                    </h2>
+
+                    <p class="text-gray-600 mt-2">
+                        Produk berkualitas tinggi dengan harga terjangkau,
+                        cocok untuk kebutuhan harian.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
     <div class="pt-6 pb-12 bg-gray-50">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             
