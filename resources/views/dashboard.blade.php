@@ -10,39 +10,105 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
 
             <div class="bg-white rounded-xl shadow p-6 mb-6">
-                <div class="flex items-center gap-6">
-
-                    {{-- Gambar --}}
-                   <img
+                <div class="flex items-start gap-6">
+                    {{-- Gambar di samping kiri --}}
+                    <img
                         src="{{ asset('images/produk/sandwich.jpg') }}"
-                        class="w-32 h-32 rounded-lg object-cover"
-                        alt="Produk"
+                        class="w-48 h-48 rounded-lg object-cover flex-shrink-0"
+                        alt="Sandwich MBG"
                     />
 
-
                     {{-- Deskripsi --}}
-                    <div>
+                    <div class="flex-1">
                         <h2 class="text-2xl font-bold text-gray-800">
-                            Sandwich MBG(Mood Booster Goddies)
+                            Sandwich MBG (Mood Booster Goodies)
                         </h2>
 
                         <p class="text-gray-600 mt-2">
-                            Sandwich MBG adalah pilihan tepat untuk Anda yang menginginkan makanan praktis, bergizi, dan terjangkau. 
-                            Dibuat dengan roti lembut, isian yang melimpah, dan bahan-bahan segar pilihan, sandwich ini cocok untuk sarapan, bekal kerja, atau camilan sehat di tengah kesibukan. 
-                            Dengan rasa yang lezat dan nilai gizi yang seimbang, Sandwich MBG siap menemani hari-harimu dengan energi ekstra dan kepuasan setiap gigitan. 
-                            Nikmati kualitas premium dengan harga yang ramah di kantong!
-
-
+                            Sandwich MBG adalah solusi makan praktis dan sehat dengan harga terjangkau. 
+                            Terbuat dari bahan segar dan bergizi, cocok untuk gaya hidup aktif dan kebutuhan harian. 
+                            Rasakan kenikmatan dan kualitasnya sekarang juga!
                         </p>
-                    </div>
 
+                      
+                    </div>
                 </div>
             </div>
+
+ {{-- Introducing Section --}}
+<div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl shadow p-6 mb-6">
+    <div class="flex flex-col lg:flex-row items-center gap-8">
+        
+        {{-- Foto di sebelah kiri --}}
+        <div class="lg:w-1/2">
+            <img
+                src="{{ asset('images/produk/swd.png') }}"
+                class="w-full h-auto rounded-lg object-cover shadow-md"
+                alt="Sandwich MBG Premium"
+            />
+        </div>
+
+        {{-- Konten di sebelah kanan --}}
+        <div class="lg:w-1/2">
+
+            <h2 class="block text-center text-2xl font-extrabold text-gray-800 mb-4 leading-tight">
+                Introducing <br>
+                <span class="text-blue-700">Sandwich MBG</span>
+            </h2>
+
+           <p class="text-gray-600 mb-6 indent-8">
+    Nikmati sensasi sandwich premium dengan isian berkualitas tinggi,
+    dibuat dari <span class="font-semibold">bahan organik pilihan</span>
+    dan <span class="font-semibold">roti whole grain</span>.
+    Pilihan tepat untuk kamu yang peduli rasa, nutrisi, dan gaya hidup sehat.
+</p>
+
+
+
+            {{-- CTA --}}
+            <div class="flex flex-wrap items-center gap-4 mb-6">
+                <a href="#order" class="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">
+                    Pesan Sekarang
+                </a>
+                <span class="text-sm text-gray-500">
+                    Fresh • Healthy • Premium
+                </span>
+            </div>
+
+            {{-- Social Media Icons --}}
+            <div class="flex items-center gap-5">
+                
+                {{-- WhatsApp --}}
+                <a href="#" class="text-green-500 hover:scale-110 transition" aria-label="WhatsApp">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.52 3.48A11.91 11.91 0 0 0 12.06 0C5.5 0 .18 5.33.18 11.88c0 2.1.55 4.15 1.6 5.97L0 24l6.3-1.65a11.82 11.82 0 0 0 5.76 1.47h.01c6.55 0 11.88-5.33 11.88-11.88a11.9 11.9 0 0 0-3.43-8.46ZM12.07 21.6a9.72 9.72 0 0 1-4.95-1.35l-.35-.21-3.74.98.99-3.65-.23-.37a9.71 9.71 0 1 1 8.28 4.6Zm5.62-7.7c-.31-.16-1.84-.91-2.12-1.02-.29-.1-.5-.16-.71.16-.21.31-.82 1.02-1.01 1.23-.18.21-.37.24-.68.08-.31-.16-1.32-.49-2.51-1.56-.93-.83-1.56-1.86-1.74-2.17-.18-.31-.02-.48.14-.64.14-.14.31-.37.47-.55.16-.18.21-.31.31-.52.1-.21.05-.39-.03-.55-.08-.16-.71-1.7-.97-2.33-.26-.63-.52-.55-.71-.56h-.61c-.21 0-.55.08-.84.39-.29.31-1.1 1.07-1.1 2.61s1.13 3.03 1.29 3.24c.16.21 2.23 3.4 5.41 4.76.76.33 1.36.52 1.83.67.77.25 1.47.21 2.02.13.62-.09 1.84-.75 2.1-1.47.26-.72.26-1.34.18-1.47-.08-.13-.29-.21-.6-.37Z"/>
+                    </svg>
+                </a>
+
+                {{-- Instagram --}}
+                <a href="#" class="text-pink-500 hover:scale-110 transition" aria-label="Instagram">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.17.06 1.8.25 2.22.42.55.21.94.46 1.35.87.41.41.66.8.87 1.35.17.42.36 1.05.42 2.22.07 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.06 1.17-.25 1.8-.42 2.22-.21.55-.46.94-.87 1.35-.41.41-.8.66-1.35.87-.42.17-1.05.36-2.22.42-1.3.07-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.17-.06-1.8-.25-2.22-.42-.55-.21-.94-.46-1.35-.87-.41-.41-.66-.8-.87-1.35-.17-.42-.36-1.05-.42-2.22C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.06-1.17.25-1.8.42-2.22.21-.55.46-.94.87-1.35.41-.41.8-.66 1.35-.87.42-.17 1.05-.36 2.22-.42C8.4 2.2 8.8 2.2 12 2.2Zm0 3.2a6.6 6.6 0 1 0 0 13.2 6.6 6.6 0 0 0 0-13.2Zm0 10.9a4.3 4.3 0 1 1 0-8.6 4.3 4.3 0 0 1 0 8.6Zm6.85-11.6a1.54 1.54 0 1 1-3.08 0 1.54 1.54 0 0 1 3.08 0Z"/>
+                    </svg>
+                </a>
+
+                {{-- TikTok --}}
+                <a href="#" class="text-gray-800 hover:scale-110 transition" aria-label="TikTok">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19.32 5.38a5.35 5.35 0 0 1-3.13-1.25 5.29 5.29 0 0 1-1.23-3.12h-3.6v14.2a2.88 2.88 0 1 1-2.88-2.88c.28 0 .55.04.8.11V8.8a6.48 6.48 0 1 0 6.48 6.48V8.1a8.92 8.92 0 0 0 4.56 1.25V5.38Z"/>
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 
         </div>
     </div>
 
-
+    {{-- Dashboard Metrics --}}
     <div class="pt-6 pb-12 bg-gray-50">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
 
@@ -88,10 +154,10 @@
                     Interpretasi Hasil & Keputusan Bisnis
                 </h3>
                 <ul class="list-disc ml-5 space-y-2 text-blue-100 text-sm">
-    <li><strong>Analisis Pelanggan:</strong> Dari total 9 pelanggan, terdapat 4 orang (±44%) yang telah melakukan pembelian ulang (Repeat Order).</li>
-    <li><strong>Kepuasan Produk:</strong> Angka retensi mendekati 50% menunjukkan bahwa Sandwich MBG memiliki kecocokan rasa (Product-Market Fit) yang sangat kuat di mata konsumen.</li>
-    <li><strong>Strategi Retensi:</strong> Kami akan memfokuskan strategi pada 5 pembeli baru lainnya melalui pengiriman pesan "Terima Kasih" agar mereka juga terdorong untuk membeli kembali.</li>
-</ul>
+                    <li><strong>Analisis Pelanggan:</strong> Dari total 9 pelanggan, terdapat 4 orang (±44%) yang telah melakukan pembelian ulang (Repeat Order).</li>
+                    <li><strong>Kepuasan Produk:</strong> Angka retensi mendekati 50% menunjukkan bahwa Sandwich MBG memiliki kecocokan rasa (Product-Market Fit) yang sangat kuat di mata konsumen.</li>
+                    <li><strong>Strategi Retensi:</strong> Kami akan memfokuskan strategi pada 5 pembeli baru lainnya melalui pengiriman pesan "Terima Kasih" agar mereka juga terdorong untuk membeli kembali.</li>
+                </ul>
             </div>
 
         </div>
@@ -113,7 +179,6 @@
                 }]
             }
         });
-
 
         // 2. Doughnut Chart (Customer Retention)
         const ctxRetention = document.getElementById('retentionChart').getContext('2d');
