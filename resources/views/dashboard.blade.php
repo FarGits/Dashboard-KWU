@@ -27,8 +27,11 @@
                         </h2>
 
                         <p class="text-gray-600 mt-2">
-                            Produk berkualitas tinggi dengan harga terjangkau,
-                            cocok untuk kebutuhan harian.
+                            Sandwich MBG (Modo Booster Goddies) solusi makan praktis dan sehat dengan harga terjangkau.
+                             Terbuat dari bahan segar dan bergizi, cocok untuk gaya hidup aktif dan kebutuhan harian.
+                              Rasakan kenikmatan dan kualitasnya sekarang juga!
+
+
                         </p>
                     </div>
 
