@@ -13,10 +13,12 @@
                 <div class="flex items-center gap-6">
 
                     {{-- Gambar --}}
-                    <img
-                        src="{{ asset('images/produk.jpg') }}"
+                   <img
+                        src="{{ asset('images/produk/sandwich.jpg') }}"
                         class="w-32 h-32 rounded-lg object-cover"
-                        alt="Produk">
+                        alt="Produk"
+                    />
+
 
                     {{-- Deskripsi --}}
                     <div>
@@ -61,7 +63,7 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
                 <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                    <h3 class="font-bold text-gray-700 mb-4">Tren Penjualan (14 Hari Terakhir)</h3>
+                    <h3 class="font-bold text-gray-700 mb-4">Tren Penjualan (7 Hari Terakhir)</h3>
                     <canvas id="salesChart" height="200"></canvas>
                 </div>
 
@@ -82,10 +84,10 @@
                     Interpretasi Hasil & Keputusan Bisnis
                 </h3>
                 <ul class="list-disc ml-5 space-y-2 text-blue-100 text-sm">
-                    <li><strong>Analisis Tren:</strong> Penjualan mengalami kenaikan sebesar 15% pada minggu kedua setelah peluncuran promo "Bundle Hemat".</li>
-                    <li><strong>Produk Terlaris:</strong> Kategori 'Makanan Ringan' menyumbang 55% dari total pendapatan, menandakan stok harus diperbanyak di kategori ini.</li>
-                    <li><strong>Keputusan ke Depan:</strong> Mengingat Conversion Rate mencapai 12.5%, kami akan meningkatkan budget iklan di Media Sosial untuk menarik lebih banyak traffic.</li>
-                </ul>
+    <li><strong>Analisis Pelanggan:</strong> Dari total 9 pelanggan, terdapat 4 orang (±44%) yang telah melakukan pembelian ulang (Repeat Order).</li>
+    <li><strong>Kepuasan Produk:</strong> Angka retensi mendekati 50% menunjukkan bahwa Sandwich MBG memiliki kecocokan rasa (Product-Market Fit) yang sangat kuat di mata konsumen.</li>
+    <li><strong>Strategi Retensi:</strong> Kami akan memfokuskan strategi pada 5 pembeli baru lainnya melalui pengiriman pesan "Terima Kasih" agar mereka juga terdorong untuk membeli kembali.</li>
+</ul>
             </div>
 
         </div>
@@ -98,15 +100,16 @@
         new Chart(ctxSales, {
             type: 'bar',
             data: {
-                labels: ['H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'H7', 'H8', 'H9', 'H10', 'H11', 'H12', 'H13', 'H14'],
+                labels: ['H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'H7',],
                 datasets: [{
                     label: 'Unit Terjual',
-                    data: [45, 52, 48, 70, 65, 80, 95, 60, 55, 75, 85, 90, 110, 105],
+                    data: [4, 0, 0, 0, 0, 0, 5,],
                     backgroundColor: '#3b82f6',
-                    borderRadius: 5
+                    borderRadius: 4
                 }]
             }
         });
+
 
         // 2. Doughnut Chart (Customer Retention)
         const ctxRetention = document.getElementById('retentionChart').getContext('2d');
