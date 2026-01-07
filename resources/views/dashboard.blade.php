@@ -129,6 +129,10 @@
                     <p class="text-xs font-bold text-gray-400 uppercase">Customers</p>
                     <p class="text-2xl font-bold text-gray-800">9</p>
                 </div>
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100">
+                    <p class="text-xs font-bold text-gray-400 uppercase">price</p>
+                    <p class="text-2xl font-bold text-gray-800">Rp 10.000 pcs</p>
+                </div>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
