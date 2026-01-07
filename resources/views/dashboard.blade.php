@@ -44,23 +44,19 @@
             <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mb-8">
                 <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100">
                     <p class="text-xs font-bold text-gray-400 uppercase">Revenue</p>
-                    <p class="text-2xl font-bold text-blue-600">Rp 5.2M</p>
+                    <p class="text-2xl font-bold text-blue-600">Rp 90.000</p>
                 </div>
                 <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100">
                     <p class="text-xs font-bold text-gray-400 uppercase">Units Sold</p>
-                    <p class="text-2xl font-bold text-gray-800">1,240</p>
+                    <p class="text-2xl font-bold text-gray-800">9 pcs</p>
                 </div>
                 <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100">
                     <p class="text-xs font-bold text-gray-400 uppercase">Profit</p>
-                    <p class="text-2xl font-bold text-green-500">Rp 1.8M</p>
+                    <p class="text-2xl font-bold text-green-500">Rp -50.000</p>
                 </div>
                 <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100">
                     <p class="text-xs font-bold text-gray-400 uppercase">Customers</p>
-                    <p class="text-2xl font-bold text-gray-800">850</p>
-                </div>
-                <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100">
-                    <p class="text-xs font-bold text-gray-400 uppercase">Conv. Rate</p>
-                    <p class="text-2xl font-bold text-purple-500">12.5%</p>
+                    <p class="text-2xl font-bold text-gray-800">9</p>
                 </div>
             </div>
 
